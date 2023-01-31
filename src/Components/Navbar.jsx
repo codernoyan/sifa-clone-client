@@ -87,7 +87,7 @@ export default function Navbar() {
               className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
               onClick={() => setIsMenuOpen(true)}
             >
-              <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
+              <svg className="w-5 text-white" viewBox="0 0 24 24">
                 <path
                   fill="currentColor"
                   d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
@@ -111,7 +111,7 @@ export default function Navbar() {
                       to="/"
                       className="inline-flex items-center"
                     >
-                      <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                      <span className="text-xl font-bold tracking-wide text-gray-800 uppercase">
                         SIFA
                       </span>
                     </Link>
@@ -135,64 +135,50 @@ export default function Navbar() {
                 <nav>
                   <ul className="space-y-4">
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
+                      <Link
+                        to="/"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Product
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
+                      <Link
+                        to="/"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Features
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Product pricing"
-                        title="Product pricing"
+                      <Link
+                        to="/"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Pricing
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        aria-label="About us"
-                        title="About us"
+                      <Link
+                        to="/"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         About us
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        aria-label="Sign in"
-                        title="Sign in"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      <button
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200"
                       >
                         Sign in
-                      </a>
+                      </button>
                     </li>
                     <li>
-                      <a
-                        href="/"
-                        className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                        aria-label="Sign up"
-                        title="Sign up"
+                      <button
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200"
                       >
                         Sign up
-                      </a>
+                      </button>
                     </li>
                   </ul>
                 </nav>

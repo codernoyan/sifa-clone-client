@@ -8,7 +8,7 @@ export default function Main() {
   return (
     <div>
       <Navbar />
-      <div className="container mx-auto">
+      <div className="container mx-auto px-2 md:px-0">
         <Outlet />
       </div>
       <Footer />
