@@ -1,10 +1,11 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
+import Hero from './Hero';
 
 export default function Home() {
   return (
     <div>
-      <h2>home</h2>
+      <Hero />
     </div>
   );
 }

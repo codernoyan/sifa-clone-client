@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <div className="bg-navColor">
-      <div className="container mx-auto px-2 py-3 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-0 lg:px-0 bg-navColor">
+      <div className="container mx-auto px-2 py-3 md:px-0 lg:px-0 bg-navColor font-inter">
         <div className="relative flex items-center justify-between">
           <div className="flex items-center">
             <Link
@@ -17,7 +17,7 @@ export default function Navbar() {
               title="Company"
               className="inline-flex items-center mr-8 text-white"
             >
-              <span className="text-xl font-bold tracking-wide text-gray-800 uppercase text-white">
+              <span className="text-3xl font-bold tracking-wide uppercase text-white">
                 SIFA
               </span>
             </Link>
@@ -109,7 +109,7 @@ export default function Navbar() {
                   <div>
                     <Link
                       to="/"
-                      className="inline-flex items-center"
+                      className="inline-flex items-center text-3xl font-bold font-inter"
                     >
                       <span className="text-xl font-bold tracking-wide text-gray-800 uppercase">
                         SIFA
@@ -133,7 +133,7 @@ export default function Navbar() {
                   </div>
                 </div>
                 <nav>
-                  <ul className="space-y-4">
+                  <ul className="space-y-4 font-inter">
                     <li>
                       <Link
                         to="/"
