@@ -30,7 +30,11 @@ export default function WhySifa() {
                 and effort on middle-office tasks, freeing up more time for meaningful client
                 interactions and relationship-building.
               </p>
-              <Link className="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700 mt-6" to="/">Get started</Link>
+              <div className="mt-4 md:mt-8">
+                <Link to="/" className="inline-block rounded bg-indigo-600 px-12 py-3 font-inter font-medium text-white transition hover:bg-indigo-800 focus:outline-none focus:ring focus:ring-indigo-500">
+                  Get Started Today
+                </Link>
+              </div>
             </div>
           </div>
         </div>

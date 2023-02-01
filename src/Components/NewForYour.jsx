@@ -32,7 +32,7 @@ export default function NewForYour() {
             </p>
           </div>
           <div className="mt-4 md:mt-8">
-            <Link to="/" className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400">
+            <Link to="/" className="inline-block rounded bg-indigo-600 px-12 py-3 font-inter font-medium text-white transition hover:bg-indigo-800 focus:outline-none focus:ring focus:ring-indigo-500">
               Get Started Today
             </Link>
           </div>

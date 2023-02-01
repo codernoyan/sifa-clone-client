@@ -23,7 +23,7 @@ export default function Hero() {
         <form>
           <div className="flex flex-col md:flex-row gap-4 mt-12 mb-16">
             <input type="text" className="border border-gray-500 rounded-md px-4 w-full py-3 md:w-1/2" placeholder="Enter your email" />
-            <button type="submit" className="px-10 py-3 bg-yellow-500 hover:bg-yellow-600 text-white rounded-md font-inter font-medium">Join our free trial</button>
+            <button type="submit" className="px-10 py-3 bg-indigo-600 hover:bg-indigo-800 text-white rounded-md font-inter font-medium">Join our free trial</button>
           </div>
         </form>
       </div>
