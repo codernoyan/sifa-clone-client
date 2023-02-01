@@ -1,5 +1,6 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
+import Contact from '../Components/Contact';
 import Metrics from '../Components/Metrics';
 import NewForYour from '../Components/NewForYour';
 import Hero from './Hero';
@@ -13,6 +14,7 @@ export default function Home() {
       {/* <ForYou /> */}
       <NewForYour />
       <Metrics />
+      <Contact />
     </div>
   );
 }
