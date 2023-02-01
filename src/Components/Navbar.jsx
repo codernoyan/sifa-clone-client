@@ -74,7 +74,7 @@ export default function Navbar() {
             </li>
             <li>
               <button
-                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded"
+                className="inline-flex items-center justify-center h-12 font-medium tracking-wide text-white transition duration-200 rounded"
               >
                 Sign up
               </button>
