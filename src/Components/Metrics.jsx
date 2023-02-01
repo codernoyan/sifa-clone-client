@@ -5,7 +5,7 @@ import React from 'react';
 export default function Metrics() {
   return (
     <section className="bg-gray-900 text-white font-inter mt-6">
-      <div className="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-2 md:px-0 py-16">
         <div className="max-w-xl">
           <h2 className="text-3xl font-bold sm:text-3xl">
             Financial advisors on average spend up to 20 hours per week on administrative tasks.
