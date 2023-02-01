@@ -1,5 +1,6 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
+import ForYou from '../Components/ForYou';
 import Hero from './Hero';
 import WhySifa from './WhySifa';
 
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
       </div>
       <WhySifa />
+      <ForYou />
     </div>
   );
 }
