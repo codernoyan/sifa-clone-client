@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function ForYou() {
   return (
-    <div className="relative px-4 pt-16 mx-auto lg:py-8 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
+    <div className="relative px-4 pt-16 mx-auto lg:py-20 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
       <div className="max-w-xl mx-auto lg:max-w-screen-xl">
         <div className="mb-16 lg:max-w-lg lg:mb-0">
           <div className="max-w-xl mb-6">
@@ -38,7 +38,7 @@ export default function ForYou() {
       <div className="flex justify-center h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-stretch">
         <img
           src="http://www.trysifa.com/assets/ss1-099c496517f128d2f45bf7884cc0ba2596bea02b5bd3637d674a6844915d2752.png"
-          className="object-cover object-left w-full h-64 max-w-xl -mb-16 shadow-2xl rounded-xl lg:ml-64 xl:ml-8 lg:-mb-24 xl:-mb-28 lg:h-auto lg:max-w-screen-md"
+          className="object-cover object-top md:object-left w-full h-64 max-w-xl shadow-2xl rounded-t-lg lg:ml-64 xl:ml-8 lg:-mb-24 xl:-mb-28 lg:h-auto lg:max-w-screen-md"
           alt=""
         />
       </div>

@@ -13,7 +13,7 @@ export default function WhySifa() {
         <div className="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
           <img
             src="http://www.trysifa.com/assets/ss2-5ac18fd3ae76b25a676e3cae74a2bbb3ca082d9f5c7b242cbb04f5118c1cb4da.png"
-            className="object-cover object-right w-full h-auto lg:w-auto lg:h-full shadow-xl rounded-xl"
+            className="object-cover object-right w-full h-auto lg:w-auto lg:h-full shadow-xl rounded-t-lg"
             alt="why sifa"
           />
         </div>

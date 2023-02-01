@@ -9,7 +9,9 @@ export default function Main() {
     <div>
       <Navbar />
       <div className="bg-grayBg">
-        <Outlet />
+        <div className="container mx-auto px-2 md:px-0">
+          <Outlet />
+        </div>
       </div>
       <Footer />
     </div>

@@ -1,17 +1,18 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
-import ForYou from '../Components/ForYou';
+import Metrics from '../Components/Metrics';
+import NewForYour from '../Components/NewForYour';
 import Hero from './Hero';
 import WhySifa from './WhySifa';
 
 export default function Home() {
   return (
     <div>
-      <div className="container mx-auto px-2 md:px-0">
-        <Hero />
-      </div>
+      <Hero />
       <WhySifa />
-      <ForYou />
+      {/* <ForYou /> */}
+      <NewForYour />
+      <Metrics />
     </div>
   );
 }
