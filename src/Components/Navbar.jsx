@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable react/button-has-type */
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -66,18 +66,20 @@ export default function Navbar() {
           </div>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <button
+              <NavLink
+                to="/sign-in"
                 className="font-medium tracking-wide text-white transition-colors duration-200"
               >
                 Sign in
-              </button>
+              </NavLink>
             </li>
             <li>
-              <button
+              <NavLink
+                to="/sign-up"
                 className="inline-flex items-center justify-center h-12 font-medium tracking-wide text-white transition duration-200 rounded"
               >
                 Sign up
-              </button>
+              </NavLink>
             </li>
           </ul>
           <div className="lg:hidden">

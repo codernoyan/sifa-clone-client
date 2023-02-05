@@ -10,10 +10,10 @@ export default function ForYou() {
         <div className="max-w-xl mx-auto lg:max-w-screen-xl">
           <div className="mb-16 lg:max-w-lg lg:mb-0">
             <div className="max-w-xl mb-6">
-              <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 Is this for you?
               </h2>
-              <div className="text-base text-gray-500 md:text-lg space-y-3 text-justify">
+              <section className="text-gray-500 md:text-lg space-y-3 text-justify">
                 <p>
                   Are you tired of spending countless hours on middle-office work, such as
                   summarising fact finds, meeting preparation, and prospecting? SIFA takes
@@ -31,7 +31,7 @@ export default function ForYou() {
                   savings for yourself and see how it can benefit your
                   business. Sign up now for our free trial.
                 </p>
-              </div>
+              </section>
               <Link to="/" className="inline-flex mt-6 bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">Get started</Link>
             </div>
           </div>
